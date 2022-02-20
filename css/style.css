@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Libre+Baskerville:ital@1&display=swap');
+*{
+    margin: 0;padding: 0;
+}
+
+/* Start Of Navbar */
+header{
+    background: #2874f0;
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+ul{
+    height: 58px;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+nav li{
+    padding: 0 23px;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+
+}
+nav li  :hover{
+    font-size:large;
+    
+}
+.search{
+    display: flex;
+    align-items: center;
+    padding: 0 23px;
+}
+
+.search input{
+    width: 30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+  
+}
+.button{
+    width: 5vw;
+    height: 27px;
+    border-radius: 8px;
+    /* margin: 0 16px 0 56px; */
+    /* padding: 0 7px; */
+    background-color: #2874f0;
+    border:2px solid white;
+    color: white;
+    cursor: pointer;
+}
+/* 
+End Of NavBar */
+
+/* Start Of Main */
+.container img{
+    width: 80vw;
+    display: flex;
+    margin: 12px auto;
+    height: 70vh;
+}
+
+.heading{
+    margin: 50px 0 0 50px;
+}
+.cards{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.cards{
+    display:flex;
+   overflow: hidden;
+   margin: 0 0 0 35px;
+}
+.card-items{
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    overflow:hidden;
+}
+.card-items img{
+    display: flex;
+    justify-content: flex-start;
+    margin: 15px 0 0 70px;
+}
+
+.card-items:hover img{
+    transition: transform .5s ease;
+    transform: scale(1.5);
+}
+.lines{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px 0 0 125px;
+    text-align: center;
+}
+.lines1{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px 0 0 110px;
+    text-align: center;
+}
+.lines2{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px 0 0 105px;
+    text-align: center;
+}
+
+/* End of Main */
+
+/* Start Of Footer */
+footer{
+    background: #172337;
+    margin: 70px 0 0 0;
+    width: 100vw;
+    height:9vh;
+    color: white;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6vh 0 0 0;
+}
+/* End Of Footer */
